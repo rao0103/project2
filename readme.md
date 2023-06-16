@@ -1,68 +1,37 @@
-# git是什么
+# project2
 
-集中式版本控制系统(vcs) => svn
-分布式版本控制系统(dvcs) => git
+#### 介绍
+project2
 
-# git的作用
-
-在项目开发的进程中,对值得记录的事件节点进行'备份'
-
-方便后期恢复(后悔药)
-
-方便团队协作开发
-
-# git管理文件的三种状态
-
-Git 有三种状态，你的文件可能处于其中之一
-
-已修改(modified):表示修改(新增,更新,删除)了文件但还没保存到数据库中
-
-已暂存(staged):表示对一个已修改文件的当前版本做了标记
-
-已提交(committed):表示数据已经安全地保存在本地数据库中。
-
-这会让我们的 Git 项目拥有三个阶段：工作区、暂存区以及 Git 目录。
-
-# 初次运行git前的配置
+#### 软件架构
+软件架构说明
 
 
-配置用户名和邮箱
+#### 安装教程
 
-git config --global user.name "raonian"
-git config --global user.email "3140737020@qq.com"
+1.  xxxx
+2.  xxxx
+3.  xxxx
 
-查看配置信息
+#### 使用说明
 
-git config --list
-git config user.name
-git config user.email
+1.  xxxx
+2.  xxxx
+3.  xxxx
 
-获取git仓库(repo)
+#### 参与贡献
 
-自动初始化git仓库(git init)
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
 
-克隆远程(服务器)仓库(git clone【repo_url】)
 
-U (untracked)未跟踪(新增)
+#### 特技
 
-A(added)
-
-M(modified)跟踪之后被修改
-
-# 创建快照(备份)
-
-git add .将所有文件放到暂存区(经常做的)
-
-git commit -m "提交信息" 将暂存区文件提交到仓库(某个功能完成的时候/在必要的时候提交)
-
-【工作区】-- git add .-->【暂存区】--git commit -m "xxx"-->【repo】
-
-【工作区】--git commit -a -m "xxx"-->【repo】（vim编辑器操作）
-
-【工作区】<--git commit -a -m "xxx"--【暂存区】<--【repo】（vim编辑器操作）
-
-git reset --hard commit_id
-
-git reset --soft commit_id
-
-git reset --mixed commit_id（默认）j将指定版本回退到工作区
+1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
+3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
