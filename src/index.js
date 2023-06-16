@@ -19,3 +19,4 @@ console.log(_);
 console.log('process.env.NODE_ENV:',process.env.NODE_ENV);
 
 // 20:07
+// 21:19分 验证gitee ——> github同步功能
